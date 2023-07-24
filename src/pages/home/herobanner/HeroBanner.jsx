@@ -22,7 +22,7 @@ const HeroBanner = () => {
 	const searchQueryHandler = (event) => {
 		if (event.key == 'Enter' && query.length > 0) {
 			event.preventDefault();
-			navigate(`/search/${query}`);
+			navigate(`explore/${query}`);
 		}
 	};
 	return (
