@@ -40,11 +40,10 @@
 	.content {
 		display: flex;
 		position: relative;
-		flex-direction: column;
 		gap: 25px;
+		flex-direction: column;
 		@include md {
 			gap: 50px;
-			flex-direction: row;
 		}
 		.left {
 			flex-shrink: 0;
